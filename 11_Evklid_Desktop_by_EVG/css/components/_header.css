@@ -1,0 +1,45 @@
+.header {
+	padding: 14px;
+}
+
+.header__container {
+ justify-content: space-between;
+}
+
+.header__logo {
+ width: 225px;
+ height: 72px;
+ background-image: url(../../img/header/logo.png);
+}
+
+.header__menu {
+	align-items: center;
+}
+
+.menu__list {
+ flex-direction: row;
+
+ height: 100%;
+
+ align-items: center;
+ outline: 1px solid greenyellow;
+ margin-right: 85px;
+
+}
+
+.menu__item {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.menu__item:not(:first-child) {
+
+}
+
+.menu__button {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../img/header/search.svg);
+}
+
