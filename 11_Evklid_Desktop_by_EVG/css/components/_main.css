@@ -1,0 +1,47 @@
+/* HERO */
+
+.hero__container {
+	min-height: 620px;
+	width: 100%;
+	background-image: url(../../img/main/hero/01_Balconies.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hero__wrapper {
+	display: flex;
+	max-width: 900px;
+	flex-direction: column;
+	padding: 105px 0 0 80px;
+}
+
+.hero__title {
+	display: block;
+	margin-bottom: 20px;
+	font-weight: 800;
+	font-size: 70px;
+	line-height: 85px;
+	color: var(--white-color);
+}
+
+.hero__txt {
+	display: block;
+	margin-bottom: 88px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	color: var(--white-color);
+}
+
+.hero__btn {
+	width: 280px;
+	height: 78px;
+	background-color: var(--orange--color);
+	color: var(--white-color);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+/* ABOUT-US */
+
