@@ -1,5 +1,9 @@
 /* HERO */
 
+.hero {
+	margin-bottom: 104px;
+}
+
 .hero__container {
 	min-height: 620px;
 	width: 100%;
@@ -45,3 +49,99 @@
 
 /* ABOUT-US */
 
+.about__txt {
+	display: block;
+	max-width: 1235px;
+	margin-bottom: 49px;
+}
+
+.about-wrapper {
+	display: flex;
+	justify-content: space-between;
+	max-height: 622px;
+}
+
+.about-wrapper__banner--left {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	width: 49.1%;
+	height: 622px;
+	background-image: url("../../img/main/about/man.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-wrapper__bottom-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 196px;
+	padding: 50px 50px 50px 50px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-wrapper__txt--white {
+	display: block;
+	max-width: 454px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+	color: var(--white-color);
+}
+
+.about-wrapper__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 175px;
+	height: 60px;
+	border: 3px solid var(--orange--color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+	color: var(--white-color);
+}
+
+.about-wrapper__banner--right {
+	display: flex;
+	flex-direction: column;
+	width: 49.1%;
+}
+
+.about-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	border: 1px solid var(--gray--color);
+	padding: 63px 58px;
+}
+
+.about-container--top {
+	margin-bottom: 32px;
+}
+
+.about-container__img--top {
+	width: 190px;
+	height: 165px;
+	margin-right: 50px;
+}
+
+.about-container__img--bottom {
+	width: 190px;
+	height: 165px;
+	margin-right: 50px;
+}
+
+.about-container-box__title {
+	margin-bottom: 9px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.about-container-box__descr {
+	max-width: 450px;
+}
