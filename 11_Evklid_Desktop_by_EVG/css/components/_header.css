@@ -29,7 +29,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	margin-right: 85px;
+	margin-right: 84px;
 	max-width: 708px;
 	width: 100%;
 }
@@ -40,12 +40,10 @@
 	line-height: 22px;
 }
 
-.menu__item:not(:first-child) {}
-
 .menu__button {
-	min-width: 25px;
-	height: 25px;
+	min-width: 24px;
+	height: 24px;
 	background-image: url(../../img/header/search.svg);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
