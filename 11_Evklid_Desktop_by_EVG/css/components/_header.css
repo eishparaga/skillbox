@@ -40,10 +40,37 @@
 	line-height: 22px;
 }
 
-.menu__button {
+.menu__link {
+	padding: 7px 2px 7px 2px;
+}
+
+.menu__link:hover {
+	border-bottom: 2px solid var(--orange--color);
+}
+
+.menu__link:focus {
+	outline: 2px solid var(--orange--color);
+}
+
+.menu__link:active {
+	outline: none;
+	color: var(--orange-black--color);
+	border-bottom: 2px solid var(--orange-black--color);
+}
+
+.button-search {
 	min-width: 24px;
 	height: 24px;
-	background-image: url(../../img/header/search.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
+}
+
+.button-search:hover svg path {
+	stroke:var(--orange--color);
+}
+
+.button-search:hover svg rect {
+	fill: var(--orange--color);
+}
+
+.button-search:focus {
+	outline: 2px solid var(--orange--color);
 }

@@ -45,3 +45,6 @@ button {
   cursor: pointer;
 }
 
+a:focus {
+	outline: 2px solid var(--orange--color);
+}
