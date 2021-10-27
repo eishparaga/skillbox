@@ -125,3 +125,48 @@
 	line-height: 32px;
 	color: var(--gray--color);
 }
+
+.footer-menu__item:hover {
+	color: var(--orange--color);
+}
+
+.footer-menu__link:focus {
+	outline: 2px solid var(--orange--color);
+}
+
+.footer-menu__item:active {
+	outline: none;
+	color: var(--orange-black--color);
+}
+
+.footer-social__link:hover svg path {
+	fill: var(--orange--color);
+}
+
+.footer-social__link:focus {
+	outline: 2px solid orange;
+}
+
+.footer-social__link:active svg path {
+	outline: none;
+	fill: var(--orange-black--color);
+}
+
+.footer-form__input:hover,
+.footer-form__textarea:hover,
+.footer-form__input:focus,
+.footer-form__textarea:focus {
+	outline: none;
+	background-color: var(--gray-high--color);
+}
+
+.footer-form__btn:hover,
+.footer-form__btn:focus {
+	outline:none;
+	background-color: var(--orange-hover-two--color);
+}
+
+.footer-form__btn:active {
+	outline: none;
+	background-color: var(--orange-black--color);
+}

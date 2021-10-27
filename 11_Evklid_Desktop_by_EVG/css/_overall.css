@@ -30,3 +30,6 @@
 	line-height: 28px;
 }
 
+.logo:focus {
+	outline: none;
+}
