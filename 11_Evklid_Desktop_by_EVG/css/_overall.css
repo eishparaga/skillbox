@@ -13,7 +13,6 @@
 	font-weight: 400;
 	font-size: 48px;
 	line-height: 58px;
-
 }
 
 .txt-regular {
@@ -32,4 +31,8 @@
 
 .logo:focus {
 	outline: none;
+}
+
+.gray-slash {
+	color: var(--gray--color);
 }

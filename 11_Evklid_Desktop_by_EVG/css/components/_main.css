@@ -153,6 +153,17 @@
 	width: 190px;
 	height: 165px;
 	margin-right: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.about-container__img--top {
+	background-image: url(../../img/main/about/kub.png);
+}
+
+.about-container__img--bottom {
+	background-image: url(../../img/main/about/shest.png);
 }
 
 .about-container-box__title {
@@ -246,6 +257,7 @@
 .job-content__descr {
 	display: block;
 	margin-bottom: 48px;
+	color: var(--black-gray--color);
 }
 
 .job-content__box-link {
@@ -305,7 +317,7 @@
 /* ------------>>>> QUESTION <<<<------------ */
 
 .question {
-	margin-bottom: 97px;
+	margin-bottom: 99px;
 }
 
 .question__title {
@@ -318,11 +330,18 @@
 	line-height: 32px;
 }
 
+.question-list {
+	display: flex;
+	flex-direction: column;
+	min-height: 558px;
+}
+
 .question-list__item-box {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 112px;
+	flex: 1 1 100%;
+	min-height: 20%;
 	border-top: 1px solid var(--gray--color);
 }
 
