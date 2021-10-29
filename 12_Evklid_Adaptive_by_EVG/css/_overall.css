@@ -1,0 +1,38 @@
+.site-container {
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1870px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+.title-regular {
+	padding-left: 2px;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 58px;
+}
+
+.txt-regular {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.btn {
+	background-color: var(--orange--color);
+	color: var(--white-color);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.logo:focus {
+	outline: none;
+}
+
+.gray-slash {
+	color: var(--gray--color);
+}

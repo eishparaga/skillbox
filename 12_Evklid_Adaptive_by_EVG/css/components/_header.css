@@ -1,0 +1,84 @@
+.header {
+	padding: 14px 0 14px 0px;
+	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	display: block;
+	margin-right: 25px;
+}
+
+.header__burger {
+	display: none;
+	width: 30px;
+	height: 23px;
+	background-image: url(../../img/header/burger.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 817px;
+	width: 100%;
+}
+
+.menu__list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 84px;
+	max-width: 708px;
+	width: 100%;
+}
+
+.menu__item {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.menu__link {
+	padding: 7px 2px 7px 2px;
+}
+
+.menu__link:hover {
+	border-bottom: 2px solid var(--orange--color);
+}
+
+.menu__link:focus {
+	outline: 2px solid var(--orange--color);
+}
+
+.menu__link:active {
+	outline: none;
+	color: var(--orange-black--color);
+	border-bottom: 2px solid var(--orange-black--color);
+}
+
+.button-search {
+	min-width: 24px;
+	height: 24px;
+}
+
+.button-search:hover svg path {
+	stroke:var(--orange--color);
+}
+
+.button-search:hover svg rect {
+	fill: var(--orange--color);
+}
+
+.button-search:focus {
+	outline: 2px solid var(--orange--color);
+}
