@@ -1,0 +1,41 @@
+/* Шрифты */
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/300_Opensans_Light.woff2"), url("../fonts/300_Opensans_Light.woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/400_Opensans_Regular.woff2"), url("../fonts/400_Opensans_Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/600_Opensans_Semibold.woff2"), url("../fonts/600_Opensans_Semibold.woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/700_Opensans_Bold.woff2"), url("../fonts/700_Opensans_Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/800_Opensans_Extrabold.woff2"), url("../fonts/800_Opensans_Extrabold.woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
