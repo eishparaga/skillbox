@@ -1,4 +1,4 @@
-/* ------------>>>> HEADER <<<<------------ */
+/* ------------>>>> HEADER 1024 <<<<------------ */
 
 @media (max-width: 1024px) {
 	.container {
@@ -32,8 +32,8 @@
 		height: 48px;
 	}
 
-/* ------------>>>> MAIN <<<<------------ */
-/* ------------>>>> HERO <<<<------------ */
+/* ------------>>>> MAIN - 1024 <<<<------------ */
+/* ------------>>>> HERO - 1024 <<<<------------ */
 
 	.hero {
 		margin-bottom: 82px;
@@ -63,17 +63,580 @@
 		margin-bottom: 60px;
 	}
 
-	/* ------------>>>> ABOUT US <<<<------------ */
+	/* ------------>>>> ABOUT US - 1024 <<<<------------ */
+
+	.about {
+		margin-bottom: 83px;
+	}
 
 	.about__title {
 		margin-bottom: 10px;
 	}
 
+	.about__txt {
+		margin-bottom: 60px;
+	}
+
+	.about-wrapper {
+		flex-direction: column;
+		max-height: 1295px;
+	}
+
+	.about-wrapper__banner--left {
+		width: 100%;
+		height: 640px;
+		background-image: url(../../img/main/about/1024/man_1024.jpg);
+		margin-bottom: 33px;
+	}
+
+	.about-wrapper__banner--right {
+		width: 100%;
+	}
+
+	.about-container {
+		padding: 62px 76px;
+		padding-top: 64px;
+	}
+
+	.about-container--top {
+		margin-bottom: 35px;
+	}
+
+	/* ------------>>>> JOB - 1024 <<<<------------ */
+
+	.job {
+		margin-bottom: 91px;
+	}
+
+	.job-step {
+		margin-bottom: 50px;
+	}
+
+	.job-content {
+		height: 690px;
+	}
+
+	.job-content__left,
+	.job-content__right {
+		width: 47.3%;
+	}
+
+	.job-content__right::before {
+		background-image: url(../../img/main/job/1024/step_1_1024.jpg);
+		height: 100%;
+	}
+
+	.job-content__descr {
+		margin-bottom: 23px;
+	}
+
+	/* ------------>>>> QUESTION - 1024 <<<<------------ */
+	.question {
+		margin-bottom: 79px;
+	}
+
+	.question__title {
+		margin-bottom: 30px;
+	}
+
+	.question-list {
+		min-height: 585px;
+	}
+
+	.question-list__title {
+		font-size: 20px;
+		max-width: 755px;
+	}
+
+	/* ------------>>>> FOOTER - 1024<<<<------------ */
+
+	.footer-box__right {
+		display: none;
+	}
+
+	.footer__container {
+		padding-top: 51px;
+	}
+
+	.footer-box__middle {
+		max-width: 540px;
+	}
+
+	.footer-form__btn {
+		max-width: 240px;
+		height: 58px;
+	}
+
 }
 
+/* ------------>>>> HEADER - 768 <<<<------------ */
+
+@media (max-width: 768px) {
+
+	.header {
+		padding-bottom: 17px;
+	}
+
+	.container {
+		max-width: 668px;
+		padding: 0;
+	}
+
+	.header__container {
+		height: 38px;
+	}
+
+/* ------------>>>> MAIN - 768 <<<<------------ */
+/* ------------>>>> HERO - 768 <<<<------------ */
+
+	.hero__container {
+		min-height: 662px;
+		background-image: url(../../img/main/hero/01_Balconies_768.jpg);
+	}
+
+	.hero__wrapper {
+		padding: 164px 40px 0 40px;
+	}
+
+	.hero__title {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.hero__txt {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	/* ------------>>>> ABOUT - 768 <<<<------------ */
+
+	.about {
+		margin-bottom: 85px;
+	}
+
+	.about-wrapper {
+	  max-height: 1185px;
+	}
+
+	.about-wrapper__banner--left {
+		min-height: 650px;
+	}
+
+	.about-wrapper__bottom-box {
+		padding: 0px 40px 0px 40px;
+	}
+
+	.about-wrapper__txt--white {
+		max-width: 365px;
+		font-size: 16px;
+		line-height: 32px;
+	}
+
+	.about-container {
+		padding: 32px 0 32px 38px;
+	}
+
+	.about-container--top {
+		margin-bottom: 34px;
+	}
+
+	.about-container-box__title {
+		margin-bottom: 10px;
+	}
+
+	.about-container__img {
+		width: 116px;
+		height: 99px;
+		margin-right: 15px;
+	}
+/* ------------>>>> JOB - 768 <<<<------------ */
+	.job {
+		min-height: 980px;
+		margin-bottom: 79px;
+	}
+
+	.job-step {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 46px;
+	}
+
+	.job-content {
+		flex-direction: column-reverse;
+	}
+
+	.job-content__left {
+		width: 100%;
+		position: relative;
+		top: 109px;
+	}
+
+	.job-content__right {
+		width: 100%;
+		height: 284px;
+		margin-bottom: 25px;
+	}
+
+	.job-content__right::before {
+		height: 284px;
+		background-image: url(../../img/main/job/768/step_1_768.jpg);
+		top: 0;
+	}
+/* ------------>>>> Question - 768 <<<<------------ */
+	.question {
+		margin-bottom: 82px;
+	}
+
+	.question-list {
+		min-height: 610px;
+	}
+
+	.question-list__title {
+		max-width: 570px;
+	}
+/* ------------>>>> Footer - 768 <<<<------------ */
+	.footer {
+		min-height: 792px;
+	}
+
+	.footer-menu {
+		display: none;
+	}
+
+	.footer__container {
+		flex-direction: column-reverse;
+		padding-top: 52px;
+	}
+
+	.footer-box__middle {
+		margin-bottom: 48px;
+	}
+
+	.footer__logo-link {
+		margin-bottom: 13px;
+	}
+}
+
+/* ------------>>>> HEADER - 320px <<<<------------ */
+
+@media (max-width: 320px) {
+
+	.container {
+		max-width: 290px;
+		padding: 0;
+	}
+
+	.header {
+		padding-top: 16px;
+		padding-bottom: 15px;
+	}
+
+	.header__logo {
+		max-width: 110px;
+		height: 35px;
+	}
+
+	/* ------------>>>> HERO - 320px <<<<------------ */
+	.hero {
+		margin-bottom: 62px;
+	}
+
+	.hero__container {
+		min-height: 308px;
+		background-image: url(../../img/main/hero/01_Balconies_320.jpg);
+	}
+
+	.hero__wrapper {
+		align-items: center;
+		padding: 61px 20px 0 20px;
+	}
+
+	.hero__title {
+		text-align: center;
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 8px;
+	}
+
+	.hero__txt {
+		text-align: center;
+		font-size: 12px;
+		line-height: 15px;
+		margin-bottom: 32px;
+	}
+
+	.hero__btn {
+		width: 162px;
+		height: 40px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+/* ------------>>>> About - 320px <<<<------------ */
+	.about {
+		margin-bottom: 61px;
+	}
+
+	.title-regular {
+		font-size: 24px;
+		line-height: 29px;
+		padding-left: 0;
+	}
+
+	.txt-regular {
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.about__title {
+		margin-bottom: 19px;
+	}
+
+	.about__txt {
+		margin-bottom: 14px;
+	}
+
+	.about-wrapper__banner--left {
+		position: relative;
+		height: 404px;
+		min-height: 404px;
+		margin-bottom: 26px;
+		background-image: url(../../img/main/about/320/man_320.jpg);
+		background-size: contain;
+		background-position: top;
+	}
+
+	.about-wrapper__bottom-box {
+		flex-direction: column;
+		position: absolute;
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding: 0;
+		background-color: transparent;
+		top: 208px;
+	}
+
+	.about-wrapper__txt--white {
+		font-size: 14px;
+		line-height: 28px;
+		font-weight: 400;
+		color: var(--black-gray--color);
+		margin-bottom: 10px;
+	}
+
+	.about-wrapper__btn {
+		width: 162px;
+		height: 40px;
+		font-size: 12px;
+		line-height: 14px;
+		color: var(--orange--color);
+	}
+
+	.about-container {
+		border: transparent;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 0
+	}
+
+	.about-container--top {
+		margin-bottom: 31px;
+	}
+
+	.about-container__img {
+		margin: 0;
+		width: 64px;
+		height: 49px;
+	}
+
+	.about-container__img--top {
+		background-image: url(../../img/main/about/320/kub_320.png);
+	}
+
+	.about-container__img--bottom {
+		background-image: url(../../img/main/about/320/shest_320.png);
+	}
+
+	.about-container-box {
+		padding-top: 12px;
+	}
+
+	.about-container-box__title {
+		margin-bottom: 5px;
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 500;
+	}
+
+/* ------------>>>> Job - 320px <<<<------------ */
+	.job {
+		min-height: 1080px;
+		margin-bottom: 35px;
+	}
+
+	.job-content__right::before {
+		height: 160px;
+		background-image: url(../../img/main/job/320/step_1_320.jpg);
+	}
+
+	.job-content__right {
+		height: 160px;
+		top: -63px;
+	}
+
+	.job-content__left {
+		top: 88px;
+	}
+
+	.job-step {
+		margin-bottom: 213px;
+	}
+
+	.job-step__item {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.job__title {
+		margin-bottom: 18px;
+	}
+
+	.job-step__item:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.job-content__title {
+		font-size: 18px;
+		line-height: 32px;
+		font-weight: 500;
+	}
+
+	.job-content__box-link {
+		position: relative;
+		top: -7px;
+	}
+
+	.job-content__link-detailed {
+		width: 162px;
+		min-width: 162px;
+		height: 40px;
+		margin-right: 10px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.job-content__link-contract {
+		width: 118px;
+		height: 40px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	/* ------------>>>> Question - 320px <<<<------------ */
+
+	.question {
+		margin-bottom: 60px;
+	}
+
+	.question__title {
+		margin-bottom: 15px;
+	}
+
+	.question-list {
+		min-height: 618px;
+	}
+
+	.question-list__title {
+		max-width: 243px;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+	}
+
+	.question-list__btn svg {
+		width: 30px;
+		height: 30px;
+	}
+
+/* ------------>>>> Footer - 320px <<<<------------ */
+	.footer {
+		min-height: 700px;
+	}
+
+	.footer__container {
+		padding-top: 31px;
+	}
+	.footer-form__title {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 19px;
+	}
+
+	.footer-form__input {
+		font-size: 14px;
+		line-height: 32px;
+		padding-left: 20px;
+		padding-top: 2px;
+	}
+
+	.footer-form__textarea {
+		font-size: 14px;
+		line-height: 32px;
+		padding-left: 20px;
+		padding-top: 14px;
+		margin-bottom: 25px;
+	}
+
+	.footer-form__btn-box {
+		flex-direction: column;
+	}
+
+	.footer-form__btn {
+		width: 180px;
+		height: 40px;
+		margin-right: 0;
+		font-size: 12px;
+		line-height: 15px;
+		margin-bottom: 12px;
+	}
+
+	.footer-box__middle {
+		margin-bottom: 16px;
+	}
+
+	.footer-box__left {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 0;
+		border-top: 1px solid gray;
+		padding-top: 15px;
+	}
+
+	.footer__logo {
+		width: 131px;
+		height: 42px;
+	}
+
+	.footer-social__link svg {
+		width: 40px;
+		height: 40px;
+	}
+
+	.footer-social__link:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.footer-social {
+		display: flex;
+		outline: 1px solid red;
+		justify-content: space-between;
+		min-width: 154px;
+	}
 
 
 
-
-
-/* ------------>>>> FOOTER <<<<------------ */
+}
